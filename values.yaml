@@ -51,14 +51,14 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: hari-dev.shop
+    - host: sagarkakkala.shop
       paths:
         - path: /
           pathType: Prefix
   tls:
-    - secretName: hari-dev-ssl
+    - secretName: sk-ssl
       hosts:
-        - www.hari-dev.shop
+        - www.sagarkakkala.shop
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
