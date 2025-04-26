@@ -9,7 +9,7 @@ image:
   repository: sagarkakkalasworld/react-microk8s
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "b5b84a64859566e5bf453b34c1383eaa0def8368"
+  tag: "4b3ec4261563f1af6560c08ed590cdc425d03b81"
 
 imagePullSecrets: []
 nameOverride: ""
